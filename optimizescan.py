@@ -11,7 +11,7 @@ class Solution:
         count = 1 
         for i in range(int(meters)):
             width = meters - count 
-            length = meters - 2(width)
+            length = meters - 2*(width)
             if width > 0 and length > 0: 
                 area = width *length 
                 if area > maxArea:
