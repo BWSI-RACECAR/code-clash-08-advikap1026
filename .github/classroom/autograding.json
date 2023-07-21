@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "python3 optimizescan.py",
+      "input": "125000",
+      "output": "31250.00",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "python3 optimizescan.py",
+      "input": "10000",
+      "output": "200.00",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "python3 optimizescan.py",
+      "input": "404",
+      "output": "0.33",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "python3 optimizescan.py",
+      "input": "12345",
+      "output": "304.80",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "python3 optimizescan.py",
+      "input": "800",
+      "output": "1.28",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test6",
+      "setup": "",
+      "run": "python3 optimizescan.py",
+      "input": "1004",
+      "output": "2.02",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test7",
+      "setup": "",
+      "run": "python3 optimizescan.py",
+      "input": "40000",
+      "output": "3200.00",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test8",
+      "setup": "",
+      "run": "python3 optimizescan.py",
+      "input": "101001101",
+      "output": "20402444806.42",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test9",
+      "setup": "",
+      "run": "python3 optimizescan.py",
+      "input": "25",
+      "output": "0.00",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test10",
+      "setup": "",
+      "run": "python3 optimizescan.py",
+      "input": "1501",
+      "output": "4.51",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
