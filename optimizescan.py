@@ -4,7 +4,7 @@ class Solution:
         # return type: float
 
         #TODO: Write code below to return a float with the solution to the prompt.
-        meters = battcap/250 
+        meters = float(battcap/250)
         maxArea = 0
         length = 0 
         width = 0 
