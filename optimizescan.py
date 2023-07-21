@@ -10,12 +10,13 @@ class Solution:
         width = 0 
         count = 1 
         for i in range(meters):
-            width = meters -1 
+            width = meters - count 
             length = meters - 2(width)
             if width > 0 and length > 0: 
                 area = width *length 
                 if area > maxArea:
                     maxArea = area
+            count = count + 1
         return maxArea
         pass 
 
