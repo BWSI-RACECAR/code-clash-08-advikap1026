@@ -19,8 +19,8 @@ class Solution:
         #     count = count + 1
         # return maxArea
         # pass 
-         return float(((meters*meters)/4)-2*((meters/4)(meters/4)))
-         #return float((battcap/500)*(battcap/1000))
+         #return float(((meters*meters)/4)-2*((meters/4)(meters/4)))
+         return float((battcap/500)*(battcap/1000))
     
         #A = P^2/4 - 2(p/4)^2
         #A = p - 4tdist 
