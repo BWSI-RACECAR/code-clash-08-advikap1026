@@ -9,7 +9,7 @@ class Solution:
         length = 0 
         width = 0 
         count = 1 
-        for i in range(meters):
+        for i in range(int(meters)):
             width = meters - count 
             length = meters - 2(width)
             if width > 0 and length > 0: 
